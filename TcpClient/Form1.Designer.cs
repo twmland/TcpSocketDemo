@@ -109,18 +109,21 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(859, 48);
+            this.button3.Enabled = false;
+            this.button3.Location = new System.Drawing.Point(859, 37);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(75, 34);
             this.button3.TabIndex = 7;
             this.button3.Text = "廣播";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(12, 81);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
+            this.textBox4.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox4.Size = new System.Drawing.Size(436, 286);
             this.textBox4.TabIndex = 8;
             // 
@@ -160,12 +163,14 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(859, 383);
+            this.button2.Enabled = false;
+            this.button2.Location = new System.Drawing.Point(859, 374);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(75, 32);
             this.button2.TabIndex = 13;
             this.button2.Text = "送出";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 

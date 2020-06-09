@@ -98,7 +98,7 @@ namespace TcpServer
                     string message = Encoding.Default.GetString(B, 0, inLine);
                     string command = message.Substring(0, 1);
                     string str = message.Substring(1);
-                    thisSocket.Send(new byte[] { 67});
+                    thisSocket.Send(B);
                     switch (command)
                     {
                         case "0":
